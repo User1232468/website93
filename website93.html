@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            background-color: rgb(148, 147, 147);
+            padding: 12px;
+            text-align: center;
+        }
+        .nav{
+            background-color: rgb(180, 149, 149);
+            padding: 12px;
+        }
+        .nav a{
+            margin-left: 60px;
+            text-decoration: none;
+            color: black;
+        }
+        #s{
+            margin-left: 60px;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: large;
+        }
+        #b{
+            padding: 8px;
+            border-radius: 10px;
+            font-size: large;
+        }
+        .content{
+            padding: 150px;
+            background-color:ghostwhite;
+        }
+        .card{
+            display: flex;
+            background-color: burlywood;
+            margin: 0 auto;
+            padding: 100px;
+            border-radius: 20px;
+        }
+        .p1,.p2,.p3{
+            margin-left: 125px;
+            text-align: center;
+        }
+        button{
+            padding: 8px;
+            border-radius: 10px;
+            font-size: large;
+        }
+        .footer{
+            background-color: rgb(148, 147, 147);
+            padding: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Shopify</h1>
+    </div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <input id="s" type="search">
+        <button id="b" type="submit">Search</button>
+    </div>
+    <div class="content">
+        <div class="card">
+        <div class="p1">
+        <img src="img1.jpg" alt="Laptop" height="150px" width="150px">
+        <h3>Laptop</h3>
+        <button>Add to cart</button>
+        </div>
+        
+        <div class="p2">
+            <img src="img2.jpg" alt="Mobile" height="150px" width="150px">
+        <h3>Phone</h3>
+        <button>Add to cart</button>
+        </div>
+        
+        <div class="p3">
+            <img src="img3.jpg" alt="Watch" height="150px" width="150px">
+        <h3>Watch</h3>
+        <button>Add to cart</button>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Contact us at shopify264@gmail.com</h3>
+    </div>
+    
+</body>
+</html>
